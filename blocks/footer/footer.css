@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1200px) {
     .footer {
-        width: calc(100%-48px*2);
+        width: calc(100% - 48px*2);
         margin: 26px 48px 0 48px;
     }
 }
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        width: calc(100%-24px*2);
+        width: calc(100% - 24px*2);
         margin: 27px 24px 0 24px;
     }
 }
@@ -32,4 +32,4 @@
         align-items: flex-start;
         gap: 48px;
     }
-} 
+}
