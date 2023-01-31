@@ -4,8 +4,13 @@
     line-height: 1.17em;
     font-weight: 400;
     color: #ffffff;
+    transition: transform 4s;
 }
 
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 425px) {
      .header__lang-link {
@@ -21,4 +26,4 @@
         line-height: 1.11em;
         font-weight: 400;
     }
-} 
+}

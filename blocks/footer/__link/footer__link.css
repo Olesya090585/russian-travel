@@ -6,12 +6,18 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.12em;
+    transition: transform 4s;
 }
+
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 705px) {
     .footer__link {
         font-size: 24px;
-        font-weight: 400;
         line-height: 1em;
     }
-} 
+}

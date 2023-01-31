@@ -17,7 +17,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .places {
         width: calc(100% - 24px*2);
         row-gap: 73px;
@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .places {
         width: 100%;
         row-gap: 50px;
@@ -39,6 +39,5 @@
 @media screen and (max-width: 320px) {
     .places {
         max-width: 320px;
-        row-gap: 50px;
     }
 }

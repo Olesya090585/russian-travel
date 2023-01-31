@@ -2,11 +2,12 @@
     display: grid;
     align-items: end;
     align-content: end;
+    justify-content: start;
     grid-area: website;
     row-gap: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .place__website {
         margin: 0 16px;
     }
